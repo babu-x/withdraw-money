@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 8px;
+  width: 450px;
+}
+.name-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: #7c3aed;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 400;
+  width: 65px;
+  height: 65px;
+  background-color: #c7d2fe;
+  padding-left: 28px;
+  padding-right: 15px;
+  padding-top: 23px;
+  border-radius: 100vh;
+}
+.name {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #c4c4c4;
+  margin-left: 12px;
+}
+.amount-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.your-bal {
+  color: #585076;
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+.amount {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+.rupees {
+  color: #585076;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 0;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 600;
+}
+.withdraw-des {
+  color: #585076;
+  font-family: 'roboto';
+  font-size: 19px;
+  font-weight: 600;
+}
+.denominations-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
